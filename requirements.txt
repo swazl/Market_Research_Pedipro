@@ -7,3 +7,5 @@ pytesseract==0.3.10
 pdfplumber==0.11.4
 docx2txt==0.8
 PyPDF2==3.0.1
+plotdigitizer==0.3.0
+scikit-learn==1.2.2
