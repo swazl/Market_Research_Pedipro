@@ -1,0 +1,1572 @@
+2024-12-19 20:37:05,519 - INFO - Script started.
+2024-12-19 20:37:05,635 - INFO - PyTrends initialized successfully.
+2024-12-19 20:37:05,635 - INFO - Timeframes generated from 2020 to 2024.
+2024-12-19 20:37:05,635 - INFO - Keywords split into 8 batches.
+2024-12-19 20:37:05,635 - INFO - Processing batch 1 with keywords: ['callus remover', 'abrasive nail file', 'nail clippers', 'nail nippers', 'nail cutters']
+2024-12-19 20:37:05,636 - INFO - Fetching data for batch 1, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:37:05,971 - INFO - Data fetched successfully for batch 1, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:37:06,976 - INFO - Fetching data for batch 1, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:37:07,306 - ERROR - Failed to retrieve data for batch 1, timeframe: 2021-01-01 2021-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['callus remover', 'abrasive nail file', 'nail clippers', 'nail nippers',
+       'nail cutters'],
+      dtype='object')
+2024-12-19 20:37:08,309 - INFO - Fetching data for batch 1, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:37:08,683 - ERROR - Failed to retrieve data for batch 1, timeframe: 2022-01-01 2022-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['callus remover', 'abrasive nail file', 'nail clippers', 'nail nippers',
+       'nail cutters'],
+      dtype='object')
+2024-12-19 20:37:09,684 - INFO - Fetching data for batch 1, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:37:10,027 - ERROR - Failed to retrieve data for batch 1, timeframe: 2023-01-01 2023-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['callus remover', 'abrasive nail file', 'nail clippers', 'nail nippers',
+       'nail cutters'],
+      dtype='object')
+2024-12-19 20:37:11,028 - INFO - Fetching data for batch 1, timeframe: 2024-01-01 2024-12-31
+2024-12-19 20:37:11,428 - ERROR - Failed to retrieve data for batch 1, timeframe: 2024-01-01 2024-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['callus remover', 'abrasive nail file', 'nail clippers', 'nail nippers',
+       'nail cutters'],
+      dtype='object')
+2024-12-19 20:37:12,430 - INFO - Processing batch 2 with keywords: ['nail file', 'nail buffer', 'cuticle pusher', 'professional nail tools', 'nail salon tools']
+2024-12-19 20:37:12,430 - INFO - Fetching data for batch 2, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:37:12,815 - INFO - Data fetched successfully for batch 2, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:37:13,816 - INFO - Fetching data for batch 2, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:37:14,198 - ERROR - Failed to retrieve data for batch 2, timeframe: 2021-01-01 2021-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['nail file', 'nail buffer', 'cuticle pusher', 'professional nail tools',
+       'nail salon tools'],
+      dtype='object')
+2024-12-19 20:37:15,200 - INFO - Fetching data for batch 2, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:37:15,576 - ERROR - Failed to retrieve data for batch 2, timeframe: 2022-01-01 2022-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['nail file', 'nail buffer', 'cuticle pusher', 'professional nail tools',
+       'nail salon tools'],
+      dtype='object')
+2024-12-19 20:37:16,577 - INFO - Fetching data for batch 2, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:37:16,949 - ERROR - Failed to retrieve data for batch 2, timeframe: 2023-01-01 2023-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['nail file', 'nail buffer', 'cuticle pusher', 'professional nail tools',
+       'nail salon tools'],
+      dtype='object')
+2024-12-19 20:37:17,951 - INFO - Fetching data for batch 2, timeframe: 2024-01-01 2024-12-31
+2024-12-19 20:37:18,336 - ERROR - Failed to retrieve data for batch 2, timeframe: 2024-01-01 2024-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['nail file', 'nail buffer', 'cuticle pusher', 'professional nail tools',
+       'nail salon tools'],
+      dtype='object')
+2024-12-19 20:37:19,338 - INFO - Processing batch 3 with keywords: ['pedicure tools', 'manicure tools', 'nail grooming tools', 'emery board', 'glass nail file']
+2024-12-19 20:37:19,338 - INFO - Fetching data for batch 3, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:37:19,695 - INFO - Data fetched successfully for batch 3, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:37:20,696 - INFO - Fetching data for batch 3, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:37:21,035 - ERROR - Failed to retrieve data for batch 3, timeframe: 2021-01-01 2021-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['pedicure tools', 'manicure tools', 'nail grooming tools',
+       'emery board', 'glass nail file'],
+      dtype='object')
+2024-12-19 20:37:22,036 - INFO - Fetching data for batch 3, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:37:22,405 - ERROR - Failed to retrieve data for batch 3, timeframe: 2022-01-01 2022-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['pedicure tools', 'manicure tools', 'nail grooming tools',
+       'emery board', 'glass nail file'],
+      dtype='object')
+2024-12-19 20:37:23,406 - INFO - Fetching data for batch 3, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:37:23,780 - ERROR - Failed to retrieve data for batch 3, timeframe: 2023-01-01 2023-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['pedicure tools', 'manicure tools', 'nail grooming tools',
+       'emery board', 'glass nail file'],
+      dtype='object')
+2024-12-19 20:37:24,781 - INFO - Fetching data for batch 3, timeframe: 2024-01-01 2024-12-31
+2024-12-19 20:37:25,157 - ERROR - Failed to retrieve data for batch 3, timeframe: 2024-01-01 2024-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['pedicure tools', 'manicure tools', 'nail grooming tools',
+       'emery board', 'glass nail file'],
+      dtype='object')
+2024-12-19 20:37:26,159 - INFO - Processing batch 4 with keywords: ['metal nail file', 'stainless steel nail clippers', 'precision nail cutter', 'ergonomic nail clippers', 'electric nail file']
+2024-12-19 20:37:26,159 - INFO - Fetching data for batch 4, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:37:26,517 - INFO - Data fetched successfully for batch 4, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:37:27,518 - INFO - Fetching data for batch 4, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:37:27,903 - ERROR - Failed to retrieve data for batch 4, timeframe: 2021-01-01 2021-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['metal nail file', 'stainless steel nail clippers',
+       'precision nail cutter', 'ergonomic nail clippers',
+       'electric nail file'],
+      dtype='object')
+2024-12-19 20:37:28,904 - INFO - Fetching data for batch 4, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:37:29,289 - ERROR - Failed to retrieve data for batch 4, timeframe: 2022-01-01 2022-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['metal nail file', 'stainless steel nail clippers',
+       'precision nail cutter', 'ergonomic nail clippers',
+       'electric nail file'],
+      dtype='object')
+2024-12-19 20:37:30,290 - INFO - Fetching data for batch 4, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:37:30,633 - ERROR - Failed to retrieve data for batch 4, timeframe: 2023-01-01 2023-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['metal nail file', 'stainless steel nail clippers',
+       'precision nail cutter', 'ergonomic nail clippers',
+       'electric nail file'],
+      dtype='object')
+2024-12-19 20:37:31,635 - INFO - Fetching data for batch 4, timeframe: 2024-01-01 2024-12-31
+2024-12-19 20:37:32,035 - ERROR - Failed to retrieve data for batch 4, timeframe: 2024-01-01 2024-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['metal nail file', 'stainless steel nail clippers',
+       'precision nail cutter', 'ergonomic nail clippers',
+       'electric nail file'],
+      dtype='object')
+2024-12-19 20:37:33,036 - INFO - Processing batch 5 with keywords: ['nail drill', 'nail scissors', 'sanitizing spray for nails', 'disinfectant for nail tools', 'nail tool sterilizer']
+2024-12-19 20:37:33,036 - INFO - Fetching data for batch 5, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:37:33,441 - INFO - Data fetched successfully for batch 5, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:37:34,442 - INFO - Fetching data for batch 5, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:37:34,826 - ERROR - Failed to retrieve data for batch 5, timeframe: 2021-01-01 2021-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['nail drill', 'nail scissors', 'sanitizing spray for nails',
+       'disinfectant for nail tools', 'nail tool sterilizer'],
+      dtype='object')
+2024-12-19 20:37:35,827 - INFO - Fetching data for batch 5, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:37:36,210 - ERROR - Failed to retrieve data for batch 5, timeframe: 2022-01-01 2022-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['nail drill', 'nail scissors', 'sanitizing spray for nails',
+       'disinfectant for nail tools', 'nail tool sterilizer'],
+      dtype='object')
+2024-12-19 20:37:37,210 - INFO - Fetching data for batch 5, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:37:37,580 - ERROR - Failed to retrieve data for batch 5, timeframe: 2023-01-01 2023-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['nail drill', 'nail scissors', 'sanitizing spray for nails',
+       'disinfectant for nail tools', 'nail tool sterilizer'],
+      dtype='object')
+2024-12-19 20:37:38,581 - INFO - Fetching data for batch 5, timeframe: 2024-01-01 2024-12-31
+2024-12-19 20:37:38,973 - ERROR - Failed to retrieve data for batch 5, timeframe: 2024-01-01 2024-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['nail drill', 'nail scissors', 'sanitizing spray for nails',
+       'disinfectant for nail tools', 'nail tool sterilizer'],
+      dtype='object')
+2024-12-19 20:37:39,974 - INFO - Processing batch 6 with keywords: ['nail salon equipment', 'nail tool organizer', 'professional nail cutter', 'nail tool kit', 'nail tool set']
+2024-12-19 20:37:39,974 - INFO - Fetching data for batch 6, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:37:40,355 - INFO - Data fetched successfully for batch 6, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:37:41,355 - INFO - Fetching data for batch 6, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:37:41,788 - ERROR - Failed to retrieve data for batch 6, timeframe: 2021-01-01 2021-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['nail salon equipment', 'nail tool organizer',
+       'professional nail cutter', 'nail tool kit', 'nail tool set'],
+      dtype='object')
+2024-12-19 20:37:42,790 - INFO - Fetching data for batch 6, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:37:43,121 - ERROR - Failed to retrieve data for batch 6, timeframe: 2022-01-01 2022-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['nail salon equipment', 'nail tool organizer',
+       'professional nail cutter', 'nail tool kit', 'nail tool set'],
+      dtype='object')
+2024-12-19 20:37:44,122 - INFO - Fetching data for batch 6, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:37:44,390 - ERROR - Failed to retrieve data for batch 6, timeframe: 2023-01-01 2023-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 266, in main
+    trends_df = pytrends.interest_over_time()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pytrends\request.py", line 232, in interest_over_time
+    req_json = self._get_data(
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pytrends\request.py", line 159, in _get_data
+    raise exceptions.TooManyRequestsError.from_response(response)
+pytrends.exceptions.TooManyRequestsError: The request failed: Google returned a response with code 429
+2024-12-19 20:37:45,392 - INFO - Fetching data for batch 6, timeframe: 2024-01-01 2024-12-31
+2024-12-19 20:37:45,684 - ERROR - Failed to retrieve data for batch 6, timeframe: 2024-01-01 2024-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 266, in main
+    trends_df = pytrends.interest_over_time()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pytrends\request.py", line 232, in interest_over_time
+    req_json = self._get_data(
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pytrends\request.py", line 159, in _get_data
+    raise exceptions.TooManyRequestsError.from_response(response)
+pytrends.exceptions.TooManyRequestsError: The request failed: Google returned a response with code 429
+2024-12-19 20:37:46,686 - INFO - Processing batch 7 with keywords: ['premium nail file', 'heavy-duty nail clippers', 'anti-rust nail tools', 'durable nail nippers', 'professional-grade nail cutters']
+2024-12-19 20:37:46,686 - INFO - Fetching data for batch 7, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:37:46,954 - ERROR - Failed to retrieve data for batch 7, timeframe: 2020-01-01 2020-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 266, in main
+    trends_df = pytrends.interest_over_time()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pytrends\request.py", line 232, in interest_over_time
+    req_json = self._get_data(
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pytrends\request.py", line 159, in _get_data
+    raise exceptions.TooManyRequestsError.from_response(response)
+pytrends.exceptions.TooManyRequestsError: The request failed: Google returned a response with code 429
+2024-12-19 20:37:47,956 - INFO - Fetching data for batch 7, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:37:48,239 - ERROR - Failed to retrieve data for batch 7, timeframe: 2021-01-01 2021-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 266, in main
+    trends_df = pytrends.interest_over_time()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pytrends\request.py", line 232, in interest_over_time
+    req_json = self._get_data(
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pytrends\request.py", line 159, in _get_data
+    raise exceptions.TooManyRequestsError.from_response(response)
+pytrends.exceptions.TooManyRequestsError: The request failed: Google returned a response with code 429
+2024-12-19 20:37:49,240 - INFO - Fetching data for batch 7, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:37:49,770 - INFO - Data fetched successfully for batch 7, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:37:50,771 - INFO - Fetching data for batch 7, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:37:51,125 - WARNING - No data returned for batch 7, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:37:52,126 - INFO - Fetching data for batch 7, timeframe: 2024-01-01 2024-12-31
+2024-12-19 20:37:52,516 - ERROR - Failed to retrieve data for batch 7, timeframe: 2024-01-01 2024-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['premium nail file', 'heavy-duty nail clippers', 'anti-rust nail tools',
+       'durable nail nippers', 'professional-grade nail cutters'],
+      dtype='object')
+2024-12-19 20:37:53,519 - INFO - Processing batch 8 with keywords: ['high-precision nail clippers', 'nail tool maintenance', 'nail salon supplies', 'nail tool hygiene', 'nail tool replacement parts']
+2024-12-19 20:37:53,519 - INFO - Fetching data for batch 8, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:37:53,889 - INFO - Data fetched successfully for batch 8, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:37:54,890 - INFO - Fetching data for batch 8, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:37:55,381 - ERROR - Failed to retrieve data for batch 8, timeframe: 2021-01-01 2021-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['high-precision nail clippers', 'nail tool maintenance',
+       'nail salon supplies', 'nail tool hygiene',
+       'nail tool replacement parts'],
+      dtype='object')
+2024-12-19 20:37:56,383 - INFO - Fetching data for batch 8, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:37:56,739 - ERROR - Failed to retrieve data for batch 8, timeframe: 2022-01-01 2022-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['high-precision nail clippers', 'nail tool maintenance',
+       'nail salon supplies', 'nail tool hygiene',
+       'nail tool replacement parts'],
+      dtype='object')
+2024-12-19 20:37:57,740 - INFO - Fetching data for batch 8, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:37:58,104 - ERROR - Failed to retrieve data for batch 8, timeframe: 2023-01-01 2023-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['high-precision nail clippers', 'nail tool maintenance',
+       'nail salon supplies', 'nail tool hygiene',
+       'nail tool replacement parts'],
+      dtype='object')
+2024-12-19 20:37:59,105 - INFO - Fetching data for batch 8, timeframe: 2024-01-01 2024-12-31
+2024-12-19 20:37:59,473 - ERROR - Failed to retrieve data for batch 8, timeframe: 2024-01-01 2024-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 272, in main
+    combined_df = combined_df.join(trends_df, how='outer')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\frame.py", line 10757, in join
+    return merge(
+           ^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 840, in _reindex_and_concat
+    llabels, rlabels = _items_overlap_with_suffix(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 2721, in _items_overlap_with_suffix
+    raise ValueError(f"columns overlap but no suffix specified: {to_rename}")
+ValueError: columns overlap but no suffix specified: Index(['high-precision nail clippers', 'nail tool maintenance',
+       'nail salon supplies', 'nail tool hygiene',
+       'nail tool replacement parts'],
+      dtype='object')
+2024-12-19 20:38:00,474 - INFO - Duplicate entries removed from combined DataFrame.
+2024-12-19 20:38:00,491 - INFO - Starting data visualization.
+2024-12-19 20:38:01,545 - INFO - Data visualization completed.
+2024-12-19 20:38:01,559 - INFO - Combined data successfully saved to C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_tools_extended_20241219_203704.csv
+2024-12-19 20:38:01,559 - INFO - Script completed successfully.
+2024-12-19 20:39:37,836 - INFO - Script started.
+2024-12-19 20:39:38,001 - INFO - PyTrends initialized successfully.
+2024-12-19 20:39:38,002 - INFO - Timeframes generated from 2020 to 2024.
+2024-12-19 20:39:38,002 - INFO - Keywords split into 8 batches.
+2024-12-19 20:39:38,002 - INFO - Processing batch 1 with keywords: ['callus remover', 'abrasive nail file', 'nail clippers', 'nail nippers', 'nail cutters']
+2024-12-19 20:39:38,002 - INFO - Fetching data for batch 1, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:39:38,276 - INFO - Data fetched successfully for batch 1, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:39:39,277 - INFO - Fetching data for batch 1, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:39:39,545 - INFO - Data fetched successfully for batch 1, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:39:40,546 - INFO - Fetching data for batch 1, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:39:40,821 - INFO - Data fetched successfully for batch 1, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:39:41,822 - INFO - Fetching data for batch 1, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:39:42,097 - INFO - Data fetched successfully for batch 1, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:39:43,098 - INFO - Fetching data for batch 1, timeframe: 2024-01-01 2024-12-19
+2024-12-19 20:39:43,434 - INFO - Data fetched successfully for batch 1, timeframe: 2024-01-01 2024-12-19
+2024-12-19 20:39:44,435 - INFO - Processing batch 2 with keywords: ['nail file', 'nail buffer', 'cuticle pusher', 'professional nail tools', 'nail salon tools']
+2024-12-19 20:39:44,435 - INFO - Fetching data for batch 2, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:39:44,768 - INFO - Data fetched successfully for batch 2, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:39:45,768 - INFO - Fetching data for batch 2, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:39:46,042 - INFO - Data fetched successfully for batch 2, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:39:47,043 - INFO - Fetching data for batch 2, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:39:47,326 - INFO - Data fetched successfully for batch 2, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:39:48,327 - INFO - Fetching data for batch 2, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:39:48,595 - INFO - Data fetched successfully for batch 2, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:39:49,596 - INFO - Fetching data for batch 2, timeframe: 2024-01-01 2024-12-19
+2024-12-19 20:39:49,913 - INFO - Data fetched successfully for batch 2, timeframe: 2024-01-01 2024-12-19
+2024-12-19 20:39:50,914 - INFO - Processing batch 3 with keywords: ['pedicure tools', 'manicure tools', 'nail grooming tools', 'emery board', 'glass nail file']
+2024-12-19 20:39:50,914 - INFO - Fetching data for batch 3, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:39:51,180 - INFO - Data fetched successfully for batch 3, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:39:52,182 - INFO - Fetching data for batch 3, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:39:52,474 - INFO - Data fetched successfully for batch 3, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:39:53,476 - INFO - Fetching data for batch 3, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:39:53,767 - INFO - Data fetched successfully for batch 3, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:39:54,768 - INFO - Fetching data for batch 3, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:39:55,076 - INFO - Data fetched successfully for batch 3, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:39:56,077 - INFO - Fetching data for batch 3, timeframe: 2024-01-01 2024-12-19
+2024-12-19 20:39:56,417 - INFO - Data fetched successfully for batch 3, timeframe: 2024-01-01 2024-12-19
+2024-12-19 20:39:57,418 - INFO - Processing batch 4 with keywords: ['metal nail file', 'stainless steel nail clippers', 'precision nail cutter', 'ergonomic nail clippers', 'electric nail file']
+2024-12-19 20:39:57,418 - INFO - Fetching data for batch 4, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:39:57,720 - INFO - Data fetched successfully for batch 4, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:39:58,721 - INFO - Fetching data for batch 4, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:39:59,012 - INFO - Data fetched successfully for batch 4, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:40:00,012 - INFO - Fetching data for batch 4, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:40:00,309 - INFO - Data fetched successfully for batch 4, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:40:01,309 - INFO - Fetching data for batch 4, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:40:01,599 - INFO - Data fetched successfully for batch 4, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:40:02,600 - INFO - Fetching data for batch 4, timeframe: 2024-01-01 2024-12-19
+2024-12-19 20:40:02,899 - INFO - Data fetched successfully for batch 4, timeframe: 2024-01-01 2024-12-19
+2024-12-19 20:40:03,900 - INFO - Processing batch 5 with keywords: ['nail drill', 'nail scissors', 'sanitizing spray for nails', 'disinfectant for nail tools', 'nail tool sterilizer']
+2024-12-19 20:40:03,900 - INFO - Fetching data for batch 5, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:40:04,176 - INFO - Data fetched successfully for batch 5, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:40:05,177 - INFO - Fetching data for batch 5, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:40:05,483 - INFO - Data fetched successfully for batch 5, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:40:06,484 - INFO - Fetching data for batch 5, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:40:06,789 - INFO - Data fetched successfully for batch 5, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:40:07,789 - INFO - Fetching data for batch 5, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:40:08,061 - INFO - Data fetched successfully for batch 5, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:40:09,063 - INFO - Fetching data for batch 5, timeframe: 2024-01-01 2024-12-19
+2024-12-19 20:40:09,428 - INFO - Data fetched successfully for batch 5, timeframe: 2024-01-01 2024-12-19
+2024-12-19 20:40:10,428 - INFO - Processing batch 6 with keywords: ['nail salon equipment', 'nail tool organizer', 'professional nail cutter', 'nail tool kit', 'nail tool set']
+2024-12-19 20:40:10,428 - INFO - Fetching data for batch 6, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:40:10,721 - INFO - Data fetched successfully for batch 6, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:40:11,722 - INFO - Fetching data for batch 6, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:40:12,065 - INFO - Data fetched successfully for batch 6, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:40:13,066 - INFO - Fetching data for batch 6, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:40:13,341 - INFO - Data fetched successfully for batch 6, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:40:14,343 - INFO - Fetching data for batch 6, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:40:14,677 - INFO - Data fetched successfully for batch 6, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:40:15,678 - INFO - Fetching data for batch 6, timeframe: 2024-01-01 2024-12-19
+2024-12-19 20:40:16,009 - INFO - Data fetched successfully for batch 6, timeframe: 2024-01-01 2024-12-19
+2024-12-19 20:40:17,010 - INFO - Processing batch 7 with keywords: ['premium nail file', 'heavy-duty nail clippers', 'anti-rust nail tools', 'durable nail nippers', 'professional-grade nail cutters']
+2024-12-19 20:40:17,010 - INFO - Fetching data for batch 7, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:40:17,336 - INFO - Data fetched successfully for batch 7, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:40:18,337 - INFO - Fetching data for batch 7, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:40:18,657 - INFO - Data fetched successfully for batch 7, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:40:19,659 - INFO - Fetching data for batch 7, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:40:19,940 - INFO - Data fetched successfully for batch 7, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:40:20,941 - INFO - Fetching data for batch 7, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:40:21,234 - WARNING - No data returned for batch 7, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:40:22,235 - INFO - Fetching data for batch 7, timeframe: 2024-01-01 2024-12-19
+2024-12-19 20:40:22,561 - INFO - Data fetched successfully for batch 7, timeframe: 2024-01-01 2024-12-19
+2024-12-19 20:40:23,562 - INFO - Processing batch 8 with keywords: ['high-precision nail clippers', 'nail tool maintenance', 'nail salon supplies', 'nail tool hygiene', 'nail tool replacement parts']
+2024-12-19 20:40:23,562 - INFO - Fetching data for batch 8, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:40:23,845 - INFO - Data fetched successfully for batch 8, timeframe: 2020-01-01 2020-12-31
+2024-12-19 20:40:24,845 - INFO - Fetching data for batch 8, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:40:25,131 - INFO - Data fetched successfully for batch 8, timeframe: 2021-01-01 2021-12-31
+2024-12-19 20:40:26,131 - INFO - Fetching data for batch 8, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:40:26,415 - INFO - Data fetched successfully for batch 8, timeframe: 2022-01-01 2022-12-31
+2024-12-19 20:40:27,415 - INFO - Fetching data for batch 8, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:40:27,721 - INFO - Data fetched successfully for batch 8, timeframe: 2023-01-01 2023-12-31
+2024-12-19 20:40:28,721 - INFO - Fetching data for batch 8, timeframe: 2024-01-01 2024-12-19
+2024-12-19 20:40:29,019 - INFO - Data fetched successfully for batch 8, timeframe: 2024-01-01 2024-12-19
+2024-12-19 20:40:30,031 - INFO - All fetched data combined successfully.
+2024-12-19 20:40:30,044 - INFO - Starting data visualization.
+2024-12-19 20:40:30,562 - INFO - Data visualization completed.
+2024-12-19 20:40:30,567 - INFO - Combined data successfully saved to C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_tools_extended_20241219_203936.csv
+2024-12-19 20:40:30,568 - INFO - Script completed successfully.
+2024-12-19 21:00:14,001 - INFO - Script started.
+2024-12-19 21:00:14,002 - ERROR - The reviews CSV file 'sample_reviews.csv' does not exist.
+2024-12-19 21:00:38,489 - INFO - Script started.
+2024-12-19 21:00:38,489 - ERROR - The reviews CSV file 'sample_reviews.csv' does not exist.
+2024-12-19 21:08:43,468 - INFO - Script started.
+2024-12-19 21:08:43,610 - INFO - PyTrends initialized successfully.
+2024-12-19 21:08:43,610 - INFO - Timeframes generated from 2020 to 2024.
+2024-12-19 21:08:43,610 - INFO - Keywords split into 9 batches.
+2024-12-19 21:08:43,610 - INFO - Processing batch 1 with keywords: ['callus remover', 'abrasive nail file', 'nail clippers', 'nail nippers', 'nail cutters']
+2024-12-19 21:08:43,610 - INFO - Fetching data for batch 1, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:08:43,908 - INFO - Data fetched successfully for batch 1, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:08:44,908 - INFO - Fetching data for batch 1, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:08:45,197 - INFO - Data fetched successfully for batch 1, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:08:46,199 - INFO - Fetching data for batch 1, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:08:46,503 - INFO - Data fetched successfully for batch 1, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:08:47,504 - INFO - Fetching data for batch 1, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:08:47,812 - INFO - Data fetched successfully for batch 1, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:08:48,813 - INFO - Fetching data for batch 1, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:08:49,117 - INFO - Data fetched successfully for batch 1, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:08:50,118 - INFO - Processing batch 2 with keywords: ['nail file', 'nail buffer', 'cuticle pusher', 'professional nail tools', 'nail salon tools']
+2024-12-19 21:08:50,118 - INFO - Fetching data for batch 2, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:08:50,392 - INFO - Data fetched successfully for batch 2, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:08:51,394 - INFO - Fetching data for batch 2, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:08:51,661 - INFO - Data fetched successfully for batch 2, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:08:52,662 - INFO - Fetching data for batch 2, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:08:52,971 - INFO - Data fetched successfully for batch 2, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:08:53,973 - INFO - Fetching data for batch 2, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:08:54,262 - INFO - Data fetched successfully for batch 2, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:08:55,263 - INFO - Fetching data for batch 2, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:08:55,576 - INFO - Data fetched successfully for batch 2, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:08:56,576 - INFO - Processing batch 3 with keywords: ['pedicure tools', 'manicure tools', 'nail grooming tools', 'emery board', 'glass nail file']
+2024-12-19 21:08:56,576 - INFO - Fetching data for batch 3, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:08:56,861 - INFO - Data fetched successfully for batch 3, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:08:57,862 - INFO - Fetching data for batch 3, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:08:58,159 - INFO - Data fetched successfully for batch 3, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:08:59,159 - INFO - Fetching data for batch 3, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:08:59,449 - INFO - Data fetched successfully for batch 3, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:09:00,451 - INFO - Fetching data for batch 3, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:09:00,743 - INFO - Data fetched successfully for batch 3, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:09:01,744 - INFO - Fetching data for batch 3, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:09:02,063 - INFO - Data fetched successfully for batch 3, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:09:03,064 - INFO - Processing batch 4 with keywords: ['metal nail file', 'stainless steel nail clippers', 'precision nail cutter', 'ergonomic nail clippers', 'electric nail file']
+2024-12-19 21:09:03,064 - INFO - Fetching data for batch 4, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:09:03,353 - INFO - Data fetched successfully for batch 4, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:09:04,355 - INFO - Fetching data for batch 4, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:09:04,646 - INFO - Data fetched successfully for batch 4, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:09:05,647 - INFO - Fetching data for batch 4, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:09:05,933 - INFO - Data fetched successfully for batch 4, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:09:06,934 - INFO - Fetching data for batch 4, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:09:07,223 - INFO - Data fetched successfully for batch 4, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:09:08,224 - INFO - Fetching data for batch 4, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:09:08,539 - INFO - Data fetched successfully for batch 4, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:09:09,540 - INFO - Processing batch 5 with keywords: ['nail drill', 'nail scissors', 'sanitizing spray for nails', 'disinfectant for nail tools', 'nail tool sterilizer']
+2024-12-19 21:09:09,540 - INFO - Fetching data for batch 5, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:09:09,833 - INFO - Data fetched successfully for batch 5, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:09:10,834 - INFO - Fetching data for batch 5, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:09:11,120 - INFO - Data fetched successfully for batch 5, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:09:12,120 - INFO - Fetching data for batch 5, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:09:12,441 - INFO - Data fetched successfully for batch 5, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:09:13,442 - INFO - Fetching data for batch 5, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:09:13,729 - INFO - Data fetched successfully for batch 5, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:09:14,730 - INFO - Fetching data for batch 5, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:09:15,167 - INFO - Data fetched successfully for batch 5, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:09:20,419 - INFO - Script started.
+2024-12-19 21:09:20,535 - INFO - PyTrends initialized successfully.
+2024-12-19 21:09:20,535 - INFO - Timeframes generated from 2015 to 2024.
+2024-12-19 21:09:20,535 - INFO - Keywords split into 9 batches.
+2024-12-19 21:09:20,536 - INFO - Processing batch 1 with keywords: ['callus remover', 'abrasive nail file', 'nail clippers', 'nail nippers', 'nail cutters']
+2024-12-19 21:09:20,536 - INFO - Fetching data for batch 1, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:09:20,912 - INFO - Data fetched successfully for batch 1, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:09:21,913 - INFO - Fetching data for batch 1, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:09:22,267 - INFO - Data fetched successfully for batch 1, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:09:23,268 - INFO - Fetching data for batch 1, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:09:23,669 - INFO - Data fetched successfully for batch 1, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:09:24,671 - INFO - Fetching data for batch 1, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:09:25,006 - INFO - Data fetched successfully for batch 1, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:09:26,007 - INFO - Fetching data for batch 1, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:09:26,368 - INFO - Data fetched successfully for batch 1, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:09:27,368 - INFO - Fetching data for batch 1, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:09:27,638 - INFO - Data fetched successfully for batch 1, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:09:28,640 - INFO - Fetching data for batch 1, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:09:28,880 - INFO - Data fetched successfully for batch 1, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:09:29,880 - INFO - Fetching data for batch 1, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:09:30,138 - INFO - Data fetched successfully for batch 1, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:09:31,139 - INFO - Fetching data for batch 1, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:09:31,354 - INFO - Data fetched successfully for batch 1, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:09:32,355 - INFO - Fetching data for batch 1, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:09:52,506 - INFO - Script started.
+2024-12-19 21:09:52,638 - INFO - PyTrends initialized successfully.
+2024-12-19 21:09:52,638 - INFO - Timeframes generated from 2015 to 2024.
+2024-12-19 21:09:52,638 - INFO - Keywords split into 9 batches.
+2024-12-19 21:09:52,638 - INFO - Processing batch 1 with keywords: ['callus remover', 'abrasive nail file', 'nail clippers', 'nail nippers', 'nail cutters']
+2024-12-19 21:09:52,638 - INFO - Fetching data for batch 1, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:09:52,886 - INFO - Data fetched successfully for batch 1, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:09:53,886 - INFO - Fetching data for batch 1, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:09:54,143 - INFO - Data fetched successfully for batch 1, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:09:55,144 - INFO - Fetching data for batch 1, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:09:55,437 - INFO - Data fetched successfully for batch 1, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:09:56,438 - INFO - Fetching data for batch 1, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:09:56,703 - INFO - Data fetched successfully for batch 1, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:09:57,703 - INFO - Fetching data for batch 1, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:09:58,013 - INFO - Data fetched successfully for batch 1, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:09:59,013 - INFO - Fetching data for batch 1, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:09:59,282 - INFO - Data fetched successfully for batch 1, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:10:00,284 - INFO - Fetching data for batch 1, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:10:00,553 - INFO - Data fetched successfully for batch 1, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:10:01,554 - INFO - Fetching data for batch 1, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:10:01,837 - INFO - Data fetched successfully for batch 1, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:10:02,838 - INFO - Fetching data for batch 1, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:10:03,109 - INFO - Data fetched successfully for batch 1, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:10:04,110 - INFO - Fetching data for batch 1, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:10:04,378 - INFO - Data fetched successfully for batch 1, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:10:05,379 - INFO - Processing batch 2 with keywords: ['nail file', 'nail buffer', 'cuticle pusher', 'professional nail tools', 'nail salon tools']
+2024-12-19 21:10:05,379 - INFO - Fetching data for batch 2, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:10:06,761 - INFO - Data fetched successfully for batch 2, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:10:07,762 - INFO - Fetching data for batch 2, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:10:08,103 - INFO - Data fetched successfully for batch 2, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:10:09,103 - INFO - Fetching data for batch 2, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:10:09,442 - INFO - Data fetched successfully for batch 2, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:10:10,443 - INFO - Fetching data for batch 2, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:10:10,801 - INFO - Data fetched successfully for batch 2, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:10:11,802 - INFO - Fetching data for batch 2, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:10:12,127 - INFO - Data fetched successfully for batch 2, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:10:13,128 - INFO - Fetching data for batch 2, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:10:13,395 - INFO - Data fetched successfully for batch 2, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:10:14,396 - INFO - Fetching data for batch 2, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:10:14,660 - INFO - Data fetched successfully for batch 2, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:10:15,661 - INFO - Fetching data for batch 2, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:10:15,907 - INFO - Data fetched successfully for batch 2, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:10:16,908 - INFO - Fetching data for batch 2, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:10:17,170 - INFO - Data fetched successfully for batch 2, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:10:18,170 - INFO - Fetching data for batch 2, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:10:18,446 - INFO - Data fetched successfully for batch 2, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:10:19,446 - INFO - Processing batch 3 with keywords: ['pedicure tools', 'manicure tools', 'nail grooming tools', 'emery board', 'glass nail file']
+2024-12-19 21:10:19,446 - INFO - Fetching data for batch 3, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:10:19,768 - INFO - Data fetched successfully for batch 3, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:10:20,769 - INFO - Fetching data for batch 3, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:10:21,085 - INFO - Data fetched successfully for batch 3, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:10:22,086 - INFO - Fetching data for batch 3, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:10:22,378 - ERROR - Failed to retrieve data for batch 3, timeframe: 2017-01-01 2017-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 606, in main
+    trends_df = pytrends.interest_over_time()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pytrends\request.py", line 232, in interest_over_time
+    req_json = self._get_data(
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pytrends\request.py", line 159, in _get_data
+    raise exceptions.TooManyRequestsError.from_response(response)
+pytrends.exceptions.TooManyRequestsError: The request failed: Google returned a response with code 429
+2024-12-19 21:10:23,380 - INFO - Fetching data for batch 3, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:10:23,741 - INFO - Data fetched successfully for batch 3, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:10:24,741 - INFO - Fetching data for batch 3, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:10:25,121 - INFO - Data fetched successfully for batch 3, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:10:26,121 - INFO - Fetching data for batch 3, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:10:26,388 - INFO - Data fetched successfully for batch 3, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:10:27,389 - INFO - Fetching data for batch 3, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:10:27,642 - INFO - Data fetched successfully for batch 3, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:10:28,643 - INFO - Fetching data for batch 3, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:10:28,888 - INFO - Data fetched successfully for batch 3, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:10:29,888 - INFO - Fetching data for batch 3, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:10:30,143 - INFO - Data fetched successfully for batch 3, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:10:31,144 - INFO - Fetching data for batch 3, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:10:31,391 - INFO - Data fetched successfully for batch 3, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:10:32,392 - INFO - Processing batch 4 with keywords: ['metal nail file', 'stainless steel nail clippers', 'precision nail cutter', 'ergonomic nail clippers', 'electric nail file']
+2024-12-19 21:10:32,392 - INFO - Fetching data for batch 4, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:10:32,931 - INFO - Data fetched successfully for batch 4, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:10:33,932 - INFO - Fetching data for batch 4, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:10:34,460 - INFO - Data fetched successfully for batch 4, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:10:35,461 - INFO - Fetching data for batch 4, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:10:35,817 - INFO - Data fetched successfully for batch 4, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:10:36,818 - INFO - Fetching data for batch 4, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:10:37,150 - INFO - Data fetched successfully for batch 4, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:10:38,151 - INFO - Fetching data for batch 4, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:10:38,529 - INFO - Data fetched successfully for batch 4, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:10:39,530 - INFO - Fetching data for batch 4, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:10:39,787 - INFO - Data fetched successfully for batch 4, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:10:40,788 - INFO - Fetching data for batch 4, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:10:41,059 - INFO - Data fetched successfully for batch 4, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:10:42,060 - INFO - Fetching data for batch 4, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:10:42,346 - INFO - Data fetched successfully for batch 4, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:10:43,399 - INFO - Fetching data for batch 4, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:10:43,681 - INFO - Data fetched successfully for batch 4, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:10:44,682 - INFO - Fetching data for batch 4, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:10:44,960 - INFO - Data fetched successfully for batch 4, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:10:45,962 - INFO - Processing batch 5 with keywords: ['nail drill', 'nail scissors', 'sanitizing spray for nails', 'disinfectant for nail tools', 'nail tool sterilizer']
+2024-12-19 21:10:45,962 - INFO - Fetching data for batch 5, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:10:46,359 - INFO - Data fetched successfully for batch 5, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:10:47,360 - INFO - Fetching data for batch 5, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:10:47,734 - INFO - Data fetched successfully for batch 5, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:10:48,735 - INFO - Fetching data for batch 5, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:10:49,172 - INFO - Data fetched successfully for batch 5, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:10:50,172 - INFO - Fetching data for batch 5, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:10:50,554 - INFO - Data fetched successfully for batch 5, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:10:51,555 - INFO - Fetching data for batch 5, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:10:51,907 - INFO - Data fetched successfully for batch 5, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:10:52,907 - INFO - Fetching data for batch 5, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:10:53,182 - INFO - Data fetched successfully for batch 5, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:10:54,183 - INFO - Fetching data for batch 5, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:10:54,741 - INFO - Data fetched successfully for batch 5, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:10:55,742 - INFO - Fetching data for batch 5, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:10:56,031 - INFO - Data fetched successfully for batch 5, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:10:57,032 - INFO - Fetching data for batch 5, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:10:57,257 - INFO - Data fetched successfully for batch 5, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:10:58,258 - INFO - Fetching data for batch 5, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:10:58,518 - INFO - Data fetched successfully for batch 5, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:10:59,519 - INFO - Processing batch 6 with keywords: ['nail salon equipment', 'nail tool organizer', 'professional nail cutter', 'nail tool kit', 'nail tool set']
+2024-12-19 21:10:59,519 - INFO - Fetching data for batch 6, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:10:59,827 - INFO - Data fetched successfully for batch 6, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:11:00,827 - INFO - Fetching data for batch 6, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:11:01,134 - INFO - Data fetched successfully for batch 6, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:11:02,134 - INFO - Fetching data for batch 6, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:11:02,444 - INFO - Data fetched successfully for batch 6, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:11:03,445 - INFO - Fetching data for batch 6, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:11:03,784 - INFO - Data fetched successfully for batch 6, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:11:04,785 - INFO - Fetching data for batch 6, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:11:05,125 - INFO - Data fetched successfully for batch 6, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:11:06,126 - INFO - Fetching data for batch 6, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:11:06,438 - INFO - Data fetched successfully for batch 6, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:11:07,439 - INFO - Fetching data for batch 6, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:11:07,713 - INFO - Data fetched successfully for batch 6, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:11:08,714 - INFO - Fetching data for batch 6, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:11:09,005 - INFO - Data fetched successfully for batch 6, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:11:10,006 - INFO - Fetching data for batch 6, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:11:10,303 - INFO - Data fetched successfully for batch 6, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:11:11,303 - INFO - Fetching data for batch 6, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:11:11,616 - INFO - Data fetched successfully for batch 6, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:11:12,617 - INFO - Processing batch 7 with keywords: ['premium nail file', 'heavy-duty nail clippers', 'anti-rust nail tools', 'durable nail nippers', 'professional-grade nail cutters']
+2024-12-19 21:11:12,617 - INFO - Fetching data for batch 7, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:11:12,905 - INFO - Data fetched successfully for batch 7, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:11:13,905 - INFO - Fetching data for batch 7, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:11:14,245 - WARNING - No data returned for batch 7, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:11:15,246 - INFO - Fetching data for batch 7, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:11:15,609 - INFO - Data fetched successfully for batch 7, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:11:16,611 - INFO - Fetching data for batch 7, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:11:16,949 - INFO - Data fetched successfully for batch 7, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:11:17,950 - INFO - Fetching data for batch 7, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:11:18,309 - INFO - Data fetched successfully for batch 7, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:11:19,310 - INFO - Fetching data for batch 7, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:11:19,609 - INFO - Data fetched successfully for batch 7, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:11:20,609 - INFO - Fetching data for batch 7, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:11:20,878 - INFO - Data fetched successfully for batch 7, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:11:21,880 - INFO - Fetching data for batch 7, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:11:22,167 - INFO - Data fetched successfully for batch 7, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:11:23,167 - INFO - Fetching data for batch 7, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:11:23,451 - WARNING - No data returned for batch 7, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:11:24,452 - INFO - Fetching data for batch 7, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:11:24,772 - INFO - Data fetched successfully for batch 7, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:11:25,773 - INFO - Processing batch 8 with keywords: ['high-precision nail clippers', 'nail tool maintenance', 'nail salon supplies', 'nail tool hygiene', 'nail tool replacement parts']
+2024-12-19 21:11:25,773 - INFO - Fetching data for batch 8, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:11:26,139 - INFO - Data fetched successfully for batch 8, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:11:27,139 - INFO - Fetching data for batch 8, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:11:27,413 - ERROR - Failed to retrieve data for batch 8, timeframe: 2016-01-01 2016-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 606, in main
+    trends_df = pytrends.interest_over_time()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pytrends\request.py", line 232, in interest_over_time
+    req_json = self._get_data(
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pytrends\request.py", line 159, in _get_data
+    raise exceptions.TooManyRequestsError.from_response(response)
+pytrends.exceptions.TooManyRequestsError: The request failed: Google returned a response with code 429
+2024-12-19 21:11:28,415 - INFO - Fetching data for batch 8, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:11:28,682 - ERROR - Failed to retrieve data for batch 8, timeframe: 2017-01-01 2017-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 606, in main
+    trends_df = pytrends.interest_over_time()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pytrends\request.py", line 232, in interest_over_time
+    req_json = self._get_data(
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pytrends\request.py", line 159, in _get_data
+    raise exceptions.TooManyRequestsError.from_response(response)
+pytrends.exceptions.TooManyRequestsError: The request failed: Google returned a response with code 429
+2024-12-19 21:11:29,684 - INFO - Fetching data for batch 8, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:11:30,200 - INFO - Data fetched successfully for batch 8, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:11:31,201 - INFO - Fetching data for batch 8, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:11:31,496 - ERROR - Failed to retrieve data for batch 8, timeframe: 2019-01-01 2019-12-31
+Traceback (most recent call last):
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_scraper_optimized.py", line 606, in main
+    trends_df = pytrends.interest_over_time()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pytrends\request.py", line 232, in interest_over_time
+    req_json = self._get_data(
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\.venv\Lib\site-packages\pytrends\request.py", line 159, in _get_data
+    raise exceptions.TooManyRequestsError.from_response(response)
+pytrends.exceptions.TooManyRequestsError: The request failed: Google returned a response with code 429
+2024-12-19 21:11:32,498 - INFO - Fetching data for batch 8, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:11:32,795 - INFO - Data fetched successfully for batch 8, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:11:33,796 - INFO - Fetching data for batch 8, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:11:34,093 - INFO - Data fetched successfully for batch 8, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:11:35,094 - INFO - Fetching data for batch 8, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:11:35,413 - INFO - Data fetched successfully for batch 8, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:11:36,413 - INFO - Fetching data for batch 8, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:11:36,709 - INFO - Data fetched successfully for batch 8, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:11:37,710 - INFO - Fetching data for batch 8, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:11:37,983 - INFO - Data fetched successfully for batch 8, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:11:38,984 - INFO - Processing batch 9 with keywords: ['manicure', 'pedicure']
+2024-12-19 21:11:38,984 - INFO - Fetching data for batch 9, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:11:39,237 - INFO - Data fetched successfully for batch 9, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:11:40,237 - INFO - Fetching data for batch 9, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:11:40,546 - INFO - Data fetched successfully for batch 9, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:11:41,547 - INFO - Fetching data for batch 9, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:11:41,814 - INFO - Data fetched successfully for batch 9, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:11:42,816 - INFO - Fetching data for batch 9, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:11:43,069 - INFO - Data fetched successfully for batch 9, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:11:44,070 - INFO - Fetching data for batch 9, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:11:44,339 - INFO - Data fetched successfully for batch 9, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:11:45,340 - INFO - Fetching data for batch 9, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:11:45,593 - INFO - Data fetched successfully for batch 9, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:11:46,594 - INFO - Fetching data for batch 9, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:11:46,860 - INFO - Data fetched successfully for batch 9, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:11:47,861 - INFO - Fetching data for batch 9, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:11:48,101 - INFO - Data fetched successfully for batch 9, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:11:49,102 - INFO - Fetching data for batch 9, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:11:49,370 - INFO - Data fetched successfully for batch 9, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:11:50,371 - INFO - Fetching data for batch 9, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:11:50,632 - INFO - Data fetched successfully for batch 9, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:11:51,648 - INFO - All fetched data combined successfully.
+2024-12-19 21:11:51,648 - INFO - Performing sentiment analysis for keyword: callus remover
+2024-12-19 21:11:51,692 - INFO - Sentiment analysis completed for keyword: callus remover
+2024-12-19 21:11:52,193 - INFO - Performing sentiment analysis for keyword: abrasive nail file
+2024-12-19 21:11:52,194 - INFO - Sentiment analysis completed for keyword: abrasive nail file
+2024-12-19 21:11:52,695 - INFO - Performing sentiment analysis for keyword: nail clippers
+2024-12-19 21:11:52,695 - INFO - Sentiment analysis completed for keyword: nail clippers
+2024-12-19 21:11:53,196 - INFO - Performing sentiment analysis for keyword: nail nippers
+2024-12-19 21:11:53,196 - INFO - Sentiment analysis completed for keyword: nail nippers
+2024-12-19 21:11:53,698 - INFO - Performing sentiment analysis for keyword: nail cutters
+2024-12-19 21:11:53,698 - INFO - Sentiment analysis completed for keyword: nail cutters
+2024-12-19 21:11:54,199 - INFO - Performing sentiment analysis for keyword: nail file
+2024-12-19 21:11:54,199 - INFO - Sentiment analysis completed for keyword: nail file
+2024-12-19 21:11:54,700 - INFO - Performing sentiment analysis for keyword: nail buffer
+2024-12-19 21:11:54,700 - INFO - Sentiment analysis completed for keyword: nail buffer
+2024-12-19 21:11:55,201 - INFO - Performing sentiment analysis for keyword: cuticle pusher
+2024-12-19 21:11:55,201 - INFO - Sentiment analysis completed for keyword: cuticle pusher
+2024-12-19 21:11:55,702 - INFO - Performing sentiment analysis for keyword: professional nail tools
+2024-12-19 21:11:55,702 - INFO - Sentiment analysis completed for keyword: professional nail tools
+2024-12-19 21:11:56,204 - INFO - Performing sentiment analysis for keyword: nail salon tools
+2024-12-19 21:11:56,204 - INFO - Sentiment analysis completed for keyword: nail salon tools
+2024-12-19 21:11:56,705 - INFO - Performing sentiment analysis for keyword: pedicure tools
+2024-12-19 21:11:56,705 - INFO - Sentiment analysis completed for keyword: pedicure tools
+2024-12-19 21:11:57,206 - INFO - Performing sentiment analysis for keyword: manicure tools
+2024-12-19 21:11:57,206 - INFO - Sentiment analysis completed for keyword: manicure tools
+2024-12-19 21:11:57,707 - INFO - Performing sentiment analysis for keyword: nail grooming tools
+2024-12-19 21:11:57,707 - INFO - Sentiment analysis completed for keyword: nail grooming tools
+2024-12-19 21:11:58,208 - INFO - Performing sentiment analysis for keyword: emery board
+2024-12-19 21:11:58,209 - INFO - Sentiment analysis completed for keyword: emery board
+2024-12-19 21:11:58,710 - INFO - Performing sentiment analysis for keyword: glass nail file
+2024-12-19 21:11:58,710 - INFO - Sentiment analysis completed for keyword: glass nail file
+2024-12-19 21:11:59,211 - INFO - Performing sentiment analysis for keyword: metal nail file
+2024-12-19 21:11:59,211 - INFO - Sentiment analysis completed for keyword: metal nail file
+2024-12-19 21:11:59,712 - INFO - Performing sentiment analysis for keyword: stainless steel nail clippers
+2024-12-19 21:11:59,712 - INFO - Sentiment analysis completed for keyword: stainless steel nail clippers
+2024-12-19 21:12:00,214 - INFO - Performing sentiment analysis for keyword: precision nail cutter
+2024-12-19 21:12:00,214 - INFO - Sentiment analysis completed for keyword: precision nail cutter
+2024-12-19 21:12:00,714 - INFO - Performing sentiment analysis for keyword: ergonomic nail clippers
+2024-12-19 21:12:00,714 - INFO - Sentiment analysis completed for keyword: ergonomic nail clippers
+2024-12-19 21:12:01,215 - INFO - Performing sentiment analysis for keyword: electric nail file
+2024-12-19 21:12:01,215 - INFO - Sentiment analysis completed for keyword: electric nail file
+2024-12-19 21:12:01,716 - INFO - Performing sentiment analysis for keyword: nail drill
+2024-12-19 21:12:01,717 - INFO - Sentiment analysis completed for keyword: nail drill
+2024-12-19 21:12:02,218 - INFO - Performing sentiment analysis for keyword: nail scissors
+2024-12-19 21:12:02,218 - INFO - Sentiment analysis completed for keyword: nail scissors
+2024-12-19 21:12:02,719 - INFO - Performing sentiment analysis for keyword: sanitizing spray for nails
+2024-12-19 21:12:02,719 - INFO - Sentiment analysis completed for keyword: sanitizing spray for nails
+2024-12-19 21:12:03,221 - INFO - Performing sentiment analysis for keyword: disinfectant for nail tools
+2024-12-19 21:12:03,221 - INFO - Sentiment analysis completed for keyword: disinfectant for nail tools
+2024-12-19 21:12:03,722 - INFO - Performing sentiment analysis for keyword: nail tool sterilizer
+2024-12-19 21:12:03,723 - INFO - Sentiment analysis completed for keyword: nail tool sterilizer
+2024-12-19 21:12:04,223 - INFO - Performing sentiment analysis for keyword: nail salon equipment
+2024-12-19 21:12:04,224 - INFO - Sentiment analysis completed for keyword: nail salon equipment
+2024-12-19 21:12:04,725 - INFO - Performing sentiment analysis for keyword: nail tool organizer
+2024-12-19 21:12:04,725 - INFO - Sentiment analysis completed for keyword: nail tool organizer
+2024-12-19 21:12:05,226 - INFO - Performing sentiment analysis for keyword: professional nail cutter
+2024-12-19 21:12:05,226 - INFO - Sentiment analysis completed for keyword: professional nail cutter
+2024-12-19 21:12:05,727 - INFO - Performing sentiment analysis for keyword: nail tool kit
+2024-12-19 21:12:05,727 - INFO - Sentiment analysis completed for keyword: nail tool kit
+2024-12-19 21:12:06,228 - INFO - Performing sentiment analysis for keyword: nail tool set
+2024-12-19 21:12:06,228 - INFO - Sentiment analysis completed for keyword: nail tool set
+2024-12-19 21:12:06,729 - INFO - Performing sentiment analysis for keyword: premium nail file
+2024-12-19 21:12:06,730 - INFO - Sentiment analysis completed for keyword: premium nail file
+2024-12-19 21:12:07,231 - INFO - Performing sentiment analysis for keyword: heavy-duty nail clippers
+2024-12-19 21:12:07,231 - INFO - Sentiment analysis completed for keyword: heavy-duty nail clippers
+2024-12-19 21:12:07,732 - INFO - Performing sentiment analysis for keyword: anti-rust nail tools
+2024-12-19 21:12:07,733 - INFO - Sentiment analysis completed for keyword: anti-rust nail tools
+2024-12-19 21:12:08,233 - INFO - Performing sentiment analysis for keyword: durable nail nippers
+2024-12-19 21:12:08,233 - INFO - Sentiment analysis completed for keyword: durable nail nippers
+2024-12-19 21:12:08,735 - INFO - Performing sentiment analysis for keyword: professional-grade nail cutters
+2024-12-19 21:12:08,735 - INFO - Sentiment analysis completed for keyword: professional-grade nail cutters
+2024-12-19 21:12:09,236 - INFO - Performing sentiment analysis for keyword: high-precision nail clippers
+2024-12-19 21:12:09,236 - INFO - Sentiment analysis completed for keyword: high-precision nail clippers
+2024-12-19 21:12:09,737 - INFO - Performing sentiment analysis for keyword: nail tool maintenance
+2024-12-19 21:12:09,737 - INFO - Sentiment analysis completed for keyword: nail tool maintenance
+2024-12-19 21:12:10,238 - INFO - Performing sentiment analysis for keyword: nail salon supplies
+2024-12-19 21:12:10,238 - INFO - Sentiment analysis completed for keyword: nail salon supplies
+2024-12-19 21:12:10,740 - INFO - Performing sentiment analysis for keyword: nail tool hygiene
+2024-12-19 21:12:10,740 - INFO - Sentiment analysis completed for keyword: nail tool hygiene
+2024-12-19 21:12:11,241 - INFO - Performing sentiment analysis for keyword: nail tool replacement parts
+2024-12-19 21:12:11,242 - INFO - Sentiment analysis completed for keyword: nail tool replacement parts
+2024-12-19 21:12:11,742 - INFO - Performing sentiment analysis for keyword: manicure
+2024-12-19 21:12:11,742 - INFO - Sentiment analysis completed for keyword: manicure
+2024-12-19 21:13:40,319 - INFO - Script started.
+2024-12-19 21:13:40,403 - INFO - PyTrends initialized successfully.
+2024-12-19 21:13:40,403 - INFO - Timeframes generated from 2020 to 2024.
+2024-12-19 21:13:40,403 - INFO - Keywords split into 9 batches.
+2024-12-19 21:13:40,403 - INFO - Processing batch 1 with keywords: ['callus remover', 'abrasive nail file', 'nail clippers', 'nail nippers', 'nail cutters']
+2024-12-19 21:13:40,403 - INFO - Fetching data for batch 1, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:13:40,683 - INFO - Data fetched successfully for batch 1, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:13:43,430 - INFO - Fetching data for batch 1, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:13:43,747 - INFO - Data fetched successfully for batch 1, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:13:44,906 - INFO - Fetching data for batch 1, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:13:45,182 - INFO - Data fetched successfully for batch 1, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:13:47,686 - INFO - Fetching data for batch 1, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:13:47,963 - INFO - Data fetched successfully for batch 1, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:13:49,529 - INFO - Fetching data for batch 1, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:13:49,785 - INFO - Data fetched successfully for batch 1, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:13:50,948 - INFO - Processing batch 2 with keywords: ['nail file', 'nail buffer', 'cuticle pusher', 'professional nail tools', 'nail salon tools']
+2024-12-19 21:13:50,948 - INFO - Fetching data for batch 2, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:13:51,224 - INFO - Data fetched successfully for batch 2, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:13:54,185 - INFO - Fetching data for batch 2, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:13:54,443 - INFO - Data fetched successfully for batch 2, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:13:56,266 - INFO - Fetching data for batch 2, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:13:56,539 - INFO - Data fetched successfully for batch 2, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:13:58,165 - INFO - Fetching data for batch 2, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:13:58,442 - INFO - Data fetched successfully for batch 2, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:14:01,386 - INFO - Fetching data for batch 2, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:14:01,682 - INFO - Data fetched successfully for batch 2, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:14:03,054 - INFO - Processing batch 3 with keywords: ['pedicure tools', 'manicure tools', 'nail grooming tools', 'emery board', 'glass nail file']
+2024-12-19 21:14:03,054 - INFO - Fetching data for batch 3, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:14:03,336 - INFO - Data fetched successfully for batch 3, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:14:04,846 - INFO - Fetching data for batch 3, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:14:05,131 - INFO - Data fetched successfully for batch 3, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:14:07,047 - INFO - Fetching data for batch 3, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:14:07,338 - INFO - Data fetched successfully for batch 3, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:14:10,140 - INFO - Fetching data for batch 3, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:14:10,427 - INFO - Data fetched successfully for batch 3, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:14:21,984 - INFO - Script started.
+2024-12-19 21:14:22,113 - INFO - PyTrends initialized successfully.
+2024-12-19 21:14:22,113 - INFO - Timeframes generated from 2015 to 2024.
+2024-12-19 21:14:22,113 - INFO - Keywords split into 9 batches.
+2024-12-19 21:14:22,113 - INFO - Processing batch 1 with keywords: ['callus remover', 'abrasive nail file', 'nail clippers', 'nail nippers', 'nail cutters']
+2024-12-19 21:14:22,113 - INFO - Fetching data for batch 1, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:14:22,390 - INFO - Data fetched successfully for batch 1, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:14:23,755 - INFO - Fetching data for batch 1, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:14:24,138 - INFO - Data fetched successfully for batch 1, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:14:25,351 - INFO - Fetching data for batch 1, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:14:25,650 - INFO - Data fetched successfully for batch 1, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:14:27,094 - INFO - Fetching data for batch 1, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:14:27,394 - INFO - Data fetched successfully for batch 1, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:14:29,706 - INFO - Fetching data for batch 1, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:14:30,019 - INFO - Data fetched successfully for batch 1, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:14:31,143 - INFO - Fetching data for batch 1, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:14:31,404 - INFO - Data fetched successfully for batch 1, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:14:33,125 - INFO - Fetching data for batch 1, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:14:33,372 - INFO - Data fetched successfully for batch 1, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:14:35,294 - INFO - Fetching data for batch 1, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:14:35,581 - INFO - Data fetched successfully for batch 1, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:14:37,586 - INFO - Fetching data for batch 1, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:14:37,830 - INFO - Data fetched successfully for batch 1, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:14:40,607 - INFO - Fetching data for batch 1, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:14:40,887 - INFO - Data fetched successfully for batch 1, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:14:43,118 - INFO - Processing batch 2 with keywords: ['nail file', 'nail buffer', 'cuticle pusher', 'professional nail tools', 'nail salon tools']
+2024-12-19 21:14:43,118 - INFO - Fetching data for batch 2, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:14:43,424 - INFO - Data fetched successfully for batch 2, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:14:44,750 - INFO - Fetching data for batch 2, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:14:45,056 - INFO - Data fetched successfully for batch 2, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:14:48,052 - INFO - Fetching data for batch 2, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:14:48,347 - INFO - Data fetched successfully for batch 2, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:14:50,838 - INFO - Fetching data for batch 2, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:14:51,110 - INFO - Data fetched successfully for batch 2, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:14:53,839 - INFO - Fetching data for batch 2, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:14:54,130 - INFO - Data fetched successfully for batch 2, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:14:56,370 - INFO - Fetching data for batch 2, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:14:56,611 - INFO - Data fetched successfully for batch 2, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:14:58,961 - INFO - Fetching data for batch 2, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:14:59,220 - INFO - Data fetched successfully for batch 2, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:15:01,422 - INFO - Fetching data for batch 2, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:15:01,683 - INFO - Data fetched successfully for batch 2, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:15:03,385 - INFO - Fetching data for batch 2, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:15:03,599 - INFO - Data fetched successfully for batch 2, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:15:04,808 - INFO - Fetching data for batch 2, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:15:05,087 - INFO - Data fetched successfully for batch 2, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:15:07,551 - INFO - Processing batch 3 with keywords: ['pedicure tools', 'manicure tools', 'nail grooming tools', 'emery board', 'glass nail file']
+2024-12-19 21:15:07,551 - INFO - Fetching data for batch 3, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:15:07,785 - INFO - Data fetched successfully for batch 3, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:15:10,406 - INFO - Fetching data for batch 3, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:15:10,679 - INFO - Data fetched successfully for batch 3, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:15:12,290 - INFO - Fetching data for batch 3, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:15:12,617 - INFO - Data fetched successfully for batch 3, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:15:14,952 - INFO - Fetching data for batch 3, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:15:15,266 - INFO - Data fetched successfully for batch 3, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:15:18,175 - INFO - Fetching data for batch 3, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:15:18,447 - INFO - Data fetched successfully for batch 3, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:15:20,956 - INFO - Fetching data for batch 3, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:15:21,201 - INFO - Data fetched successfully for batch 3, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:15:22,638 - INFO - Fetching data for batch 3, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:15:22,912 - INFO - Data fetched successfully for batch 3, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:15:25,257 - INFO - Fetching data for batch 3, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:15:25,506 - INFO - Data fetched successfully for batch 3, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:15:26,985 - INFO - Fetching data for batch 3, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:15:27,199 - INFO - Data fetched successfully for batch 3, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:15:28,629 - INFO - Fetching data for batch 3, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:15:28,889 - INFO - Data fetched successfully for batch 3, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:15:30,808 - INFO - Processing batch 4 with keywords: ['metal nail file', 'stainless steel nail clippers', 'precision nail cutter', 'ergonomic nail clippers', 'electric nail file']
+2024-12-19 21:15:30,808 - INFO - Fetching data for batch 4, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:15:31,117 - INFO - Data fetched successfully for batch 4, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:15:33,492 - INFO - Fetching data for batch 4, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:15:33,764 - INFO - Data fetched successfully for batch 4, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:15:35,390 - INFO - Fetching data for batch 4, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:15:35,652 - INFO - Data fetched successfully for batch 4, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:15:37,237 - INFO - Fetching data for batch 4, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:15:37,518 - INFO - Data fetched successfully for batch 4, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:15:39,601 - INFO - Fetching data for batch 4, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:15:39,873 - INFO - Data fetched successfully for batch 4, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:15:41,815 - INFO - Fetching data for batch 4, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:15:42,101 - INFO - Data fetched successfully for batch 4, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:15:44,772 - INFO - Fetching data for batch 4, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:15:45,066 - INFO - Data fetched successfully for batch 4, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:15:47,010 - INFO - Fetching data for batch 4, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:15:47,299 - INFO - Data fetched successfully for batch 4, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:15:50,125 - INFO - Fetching data for batch 4, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:15:50,460 - INFO - Data fetched successfully for batch 4, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:15:52,326 - INFO - Fetching data for batch 4, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:15:52,632 - INFO - Data fetched successfully for batch 4, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:15:54,376 - INFO - Processing batch 5 with keywords: ['nail drill', 'nail scissors', 'sanitizing spray for nails', 'disinfectant for nail tools', 'nail tool sterilizer']
+2024-12-19 21:15:54,376 - INFO - Fetching data for batch 5, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:15:54,622 - INFO - Data fetched successfully for batch 5, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:15:55,910 - INFO - Fetching data for batch 5, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:15:56,187 - INFO - Data fetched successfully for batch 5, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:15:58,204 - INFO - Fetching data for batch 5, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:15:58,502 - INFO - Data fetched successfully for batch 5, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:16:00,169 - INFO - Fetching data for batch 5, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:16:00,452 - INFO - Data fetched successfully for batch 5, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:16:02,265 - INFO - Fetching data for batch 5, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:16:02,537 - INFO - Data fetched successfully for batch 5, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:16:03,777 - INFO - Fetching data for batch 5, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:16:04,047 - INFO - Data fetched successfully for batch 5, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:16:05,184 - INFO - Fetching data for batch 5, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:16:05,486 - INFO - Data fetched successfully for batch 5, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:16:06,730 - INFO - Fetching data for batch 5, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:16:06,947 - INFO - Data fetched successfully for batch 5, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:16:09,454 - INFO - Fetching data for batch 5, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:16:09,699 - INFO - Data fetched successfully for batch 5, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:16:10,890 - INFO - Fetching data for batch 5, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:16:11,198 - INFO - Data fetched successfully for batch 5, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:16:13,940 - INFO - Processing batch 6 with keywords: ['nail salon equipment', 'nail tool organizer', 'professional nail cutter', 'nail tool kit', 'nail tool set']
+2024-12-19 21:16:13,940 - INFO - Fetching data for batch 6, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:16:14,223 - INFO - Data fetched successfully for batch 6, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:16:15,566 - INFO - Fetching data for batch 6, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:16:15,793 - INFO - Data fetched successfully for batch 6, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:16:18,163 - INFO - Fetching data for batch 6, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:16:18,450 - INFO - Data fetched successfully for batch 6, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:16:19,605 - INFO - Fetching data for batch 6, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:16:19,853 - INFO - Data fetched successfully for batch 6, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:16:21,854 - INFO - Fetching data for batch 6, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:16:22,135 - INFO - Data fetched successfully for batch 6, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:16:23,934 - INFO - Fetching data for batch 6, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:16:24,219 - INFO - Data fetched successfully for batch 6, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:16:25,232 - INFO - Fetching data for batch 6, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:16:25,516 - INFO - Data fetched successfully for batch 6, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:16:27,825 - INFO - Fetching data for batch 6, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:16:28,101 - INFO - Data fetched successfully for batch 6, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:16:30,518 - INFO - Fetching data for batch 6, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:16:30,821 - INFO - Data fetched successfully for batch 6, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:16:32,027 - INFO - Fetching data for batch 6, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:16:32,320 - INFO - Data fetched successfully for batch 6, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:16:34,971 - INFO - Processing batch 7 with keywords: ['premium nail file', 'heavy-duty nail clippers', 'anti-rust nail tools', 'durable nail nippers', 'professional-grade nail cutters']
+2024-12-19 21:16:34,971 - INFO - Fetching data for batch 7, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:16:35,255 - INFO - Data fetched successfully for batch 7, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:16:37,300 - INFO - Fetching data for batch 7, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:16:37,583 - WARNING - No data returned for batch 7, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:16:39,811 - INFO - Fetching data for batch 7, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:16:40,110 - INFO - Data fetched successfully for batch 7, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:16:41,792 - INFO - Fetching data for batch 7, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:16:42,065 - INFO - Data fetched successfully for batch 7, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:16:43,965 - INFO - Fetching data for batch 7, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:16:44,264 - INFO - Data fetched successfully for batch 7, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:16:46,334 - INFO - Fetching data for batch 7, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:16:46,652 - INFO - Data fetched successfully for batch 7, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:16:47,824 - INFO - Fetching data for batch 7, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:16:48,123 - INFO - Data fetched successfully for batch 7, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:16:49,509 - INFO - Fetching data for batch 7, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:16:49,780 - INFO - Data fetched successfully for batch 7, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:16:51,278 - INFO - Fetching data for batch 7, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:16:51,548 - WARNING - No data returned for batch 7, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:16:53,159 - INFO - Fetching data for batch 7, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:16:53,437 - INFO - Data fetched successfully for batch 7, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:16:54,847 - INFO - Processing batch 8 with keywords: ['high-precision nail clippers', 'nail tool maintenance', 'nail salon supplies', 'nail tool hygiene', 'nail tool replacement parts']
+2024-12-19 21:16:54,847 - INFO - Fetching data for batch 8, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:16:55,295 - INFO - Data fetched successfully for batch 8, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:16:57,162 - INFO - Fetching data for batch 8, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:16:57,582 - INFO - Data fetched successfully for batch 8, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:16:59,787 - INFO - Fetching data for batch 8, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:17:00,156 - INFO - Data fetched successfully for batch 8, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:17:02,322 - INFO - Fetching data for batch 8, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:17:02,626 - INFO - Data fetched successfully for batch 8, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:17:04,500 - INFO - Fetching data for batch 8, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:17:05,014 - INFO - Data fetched successfully for batch 8, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:17:07,150 - INFO - Fetching data for batch 8, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:17:07,410 - INFO - Data fetched successfully for batch 8, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:17:08,620 - INFO - Fetching data for batch 8, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:17:08,848 - INFO - Data fetched successfully for batch 8, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:17:11,375 - INFO - Fetching data for batch 8, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:17:11,666 - INFO - Data fetched successfully for batch 8, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:17:12,677 - INFO - Fetching data for batch 8, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:17:12,961 - INFO - Data fetched successfully for batch 8, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:17:15,704 - INFO - Fetching data for batch 8, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:17:15,976 - INFO - Data fetched successfully for batch 8, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:17:18,921 - INFO - Processing batch 9 with keywords: ['manicure', 'pedicure']
+2024-12-19 21:17:18,921 - INFO - Fetching data for batch 9, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:17:19,194 - INFO - Data fetched successfully for batch 9, timeframe: 2015-01-01 2015-12-31
+2024-12-19 21:17:20,808 - INFO - Fetching data for batch 9, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:17:21,080 - INFO - Data fetched successfully for batch 9, timeframe: 2016-01-01 2016-12-31
+2024-12-19 21:17:22,886 - INFO - Fetching data for batch 9, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:17:23,140 - INFO - Data fetched successfully for batch 9, timeframe: 2017-01-01 2017-12-31
+2024-12-19 21:17:25,996 - INFO - Fetching data for batch 9, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:17:26,280 - INFO - Data fetched successfully for batch 9, timeframe: 2018-01-01 2018-12-31
+2024-12-19 21:17:28,722 - INFO - Fetching data for batch 9, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:17:28,962 - INFO - Data fetched successfully for batch 9, timeframe: 2019-01-01 2019-12-31
+2024-12-19 21:17:31,872 - INFO - Fetching data for batch 9, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:17:32,099 - INFO - Data fetched successfully for batch 9, timeframe: 2020-01-01 2020-12-31
+2024-12-19 21:17:34,676 - INFO - Fetching data for batch 9, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:17:34,934 - INFO - Data fetched successfully for batch 9, timeframe: 2021-01-01 2021-12-31
+2024-12-19 21:17:36,852 - INFO - Fetching data for batch 9, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:17:37,104 - INFO - Data fetched successfully for batch 9, timeframe: 2022-01-01 2022-12-31
+2024-12-19 21:17:38,342 - INFO - Fetching data for batch 9, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:17:38,613 - INFO - Data fetched successfully for batch 9, timeframe: 2023-01-01 2023-12-31
+2024-12-19 21:17:41,117 - INFO - Fetching data for batch 9, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:17:41,404 - INFO - Data fetched successfully for batch 9, timeframe: 2024-01-01 2024-12-19
+2024-12-19 21:17:43,660 - INFO - All fetched Google Trends data combined successfully.
+2024-12-19 21:17:43,660 - INFO - Scraping reviews for keyword: callus remover
+2024-12-19 21:17:43,809 - WARNING - Failed to fetch search results for 'callus remover' on page 1. Status Code: 503
+2024-12-19 21:17:43,809 - WARNING - No products found for keyword: callus remover
+2024-12-19 21:17:43,809 - INFO - Scraping reviews for keyword: abrasive nail file
+2024-12-19 21:17:43,953 - WARNING - Failed to fetch search results for 'abrasive nail file' on page 1. Status Code: 503
+2024-12-19 21:17:43,953 - WARNING - No products found for keyword: abrasive nail file
+2024-12-19 21:17:43,953 - INFO - Scraping reviews for keyword: nail clippers
+2024-12-19 21:17:44,044 - WARNING - Failed to fetch search results for 'nail clippers' on page 1. Status Code: 503
+2024-12-19 21:17:44,044 - WARNING - No products found for keyword: nail clippers
+2024-12-19 21:17:44,044 - INFO - Scraping reviews for keyword: nail nippers
+2024-12-19 21:17:44,148 - WARNING - Failed to fetch search results for 'nail nippers' on page 1. Status Code: 503
+2024-12-19 21:17:44,149 - WARNING - No products found for keyword: nail nippers
+2024-12-19 21:17:44,149 - INFO - Scraping reviews for keyword: nail cutters
+2024-12-19 21:17:44,248 - WARNING - Failed to fetch search results for 'nail cutters' on page 1. Status Code: 503
+2024-12-19 21:17:44,248 - WARNING - No products found for keyword: nail cutters
+2024-12-19 21:17:44,248 - INFO - Scraping reviews for keyword: nail file
+2024-12-19 21:17:44,352 - WARNING - Failed to fetch search results for 'nail file' on page 1. Status Code: 503
+2024-12-19 21:17:44,352 - WARNING - No products found for keyword: nail file
+2024-12-19 21:17:44,352 - INFO - Scraping reviews for keyword: nail buffer
+2024-12-19 21:17:44,433 - WARNING - Failed to fetch search results for 'nail buffer' on page 1. Status Code: 503
+2024-12-19 21:17:44,434 - WARNING - No products found for keyword: nail buffer
+2024-12-19 21:17:44,434 - INFO - Scraping reviews for keyword: cuticle pusher
+2024-12-19 21:17:44,559 - WARNING - Failed to fetch search results for 'cuticle pusher' on page 1. Status Code: 503
+2024-12-19 21:17:44,559 - WARNING - No products found for keyword: cuticle pusher
+2024-12-19 21:17:44,559 - INFO - Scraping reviews for keyword: professional nail tools
+2024-12-19 21:17:44,679 - WARNING - Failed to fetch search results for 'professional nail tools' on page 1. Status Code: 503
+2024-12-19 21:17:44,679 - WARNING - No products found for keyword: professional nail tools
+2024-12-19 21:17:44,679 - INFO - Scraping reviews for keyword: nail salon tools
+2024-12-19 21:17:44,761 - WARNING - Failed to fetch search results for 'nail salon tools' on page 1. Status Code: 503
+2024-12-19 21:17:44,761 - WARNING - No products found for keyword: nail salon tools
+2024-12-19 21:17:44,761 - INFO - Scraping reviews for keyword: pedicure tools
+2024-12-19 21:17:44,845 - WARNING - Failed to fetch search results for 'pedicure tools' on page 1. Status Code: 503
+2024-12-19 21:17:44,845 - WARNING - No products found for keyword: pedicure tools
+2024-12-19 21:17:44,845 - INFO - Scraping reviews for keyword: manicure tools
+2024-12-19 21:17:44,998 - WARNING - Failed to fetch search results for 'manicure tools' on page 1. Status Code: 503
+2024-12-19 21:17:44,998 - WARNING - No products found for keyword: manicure tools
+2024-12-19 21:17:44,998 - INFO - Scraping reviews for keyword: nail grooming tools
+2024-12-19 21:17:45,152 - WARNING - Failed to fetch search results for 'nail grooming tools' on page 1. Status Code: 503
+2024-12-19 21:17:45,152 - WARNING - No products found for keyword: nail grooming tools
+2024-12-19 21:17:45,152 - INFO - Scraping reviews for keyword: emery board
+2024-12-19 21:17:45,236 - WARNING - Failed to fetch search results for 'emery board' on page 1. Status Code: 503
+2024-12-19 21:17:45,236 - WARNING - No products found for keyword: emery board
+2024-12-19 21:17:45,236 - INFO - Scraping reviews for keyword: glass nail file
+2024-12-19 21:17:45,388 - WARNING - Failed to fetch search results for 'glass nail file' on page 1. Status Code: 503
+2024-12-19 21:17:45,388 - WARNING - No products found for keyword: glass nail file
+2024-12-19 21:17:45,388 - INFO - Scraping reviews for keyword: metal nail file
+2024-12-19 21:17:45,477 - WARNING - Failed to fetch search results for 'metal nail file' on page 1. Status Code: 503
+2024-12-19 21:17:45,477 - WARNING - No products found for keyword: metal nail file
+2024-12-19 21:17:45,477 - INFO - Scraping reviews for keyword: stainless steel nail clippers
+2024-12-19 21:17:45,569 - WARNING - Failed to fetch search results for 'stainless steel nail clippers' on page 1. Status Code: 503
+2024-12-19 21:17:45,569 - WARNING - No products found for keyword: stainless steel nail clippers
+2024-12-19 21:17:45,569 - INFO - Scraping reviews for keyword: precision nail cutter
+2024-12-19 21:17:45,665 - WARNING - Failed to fetch search results for 'precision nail cutter' on page 1. Status Code: 503
+2024-12-19 21:17:45,665 - WARNING - No products found for keyword: precision nail cutter
+2024-12-19 21:17:45,665 - INFO - Scraping reviews for keyword: ergonomic nail clippers
+2024-12-19 21:17:45,748 - WARNING - Failed to fetch search results for 'ergonomic nail clippers' on page 1. Status Code: 503
+2024-12-19 21:17:45,749 - WARNING - No products found for keyword: ergonomic nail clippers
+2024-12-19 21:17:45,749 - INFO - Scraping reviews for keyword: electric nail file
+2024-12-19 21:17:46,258 - WARNING - Failed to fetch search results for 'electric nail file' on page 1. Status Code: 503
+2024-12-19 21:17:46,258 - WARNING - No products found for keyword: electric nail file
+2024-12-19 21:17:46,258 - INFO - Scraping reviews for keyword: nail drill
+2024-12-19 21:17:46,350 - WARNING - Failed to fetch search results for 'nail drill' on page 1. Status Code: 503
+2024-12-19 21:17:46,351 - WARNING - No products found for keyword: nail drill
+2024-12-19 21:17:46,351 - INFO - Scraping reviews for keyword: nail scissors
+2024-12-19 21:17:46,450 - WARNING - Failed to fetch search results for 'nail scissors' on page 1. Status Code: 503
+2024-12-19 21:17:46,451 - WARNING - No products found for keyword: nail scissors
+2024-12-19 21:17:46,451 - INFO - Scraping reviews for keyword: sanitizing spray for nails
+2024-12-19 21:17:46,535 - WARNING - Failed to fetch search results for 'sanitizing spray for nails' on page 1. Status Code: 503
+2024-12-19 21:17:46,535 - WARNING - No products found for keyword: sanitizing spray for nails
+2024-12-19 21:17:46,535 - INFO - Scraping reviews for keyword: disinfectant for nail tools
+2024-12-19 21:17:46,624 - WARNING - Failed to fetch search results for 'disinfectant for nail tools' on page 1. Status Code: 503
+2024-12-19 21:17:46,624 - WARNING - No products found for keyword: disinfectant for nail tools
+2024-12-19 21:17:46,624 - INFO - Scraping reviews for keyword: nail tool sterilizer
+2024-12-19 21:17:46,715 - WARNING - Failed to fetch search results for 'nail tool sterilizer' on page 1. Status Code: 503
+2024-12-19 21:17:46,716 - WARNING - No products found for keyword: nail tool sterilizer
+2024-12-19 21:17:46,716 - INFO - Scraping reviews for keyword: nail salon equipment
+2024-12-19 21:17:46,811 - WARNING - Failed to fetch search results for 'nail salon equipment' on page 1. Status Code: 503
+2024-12-19 21:17:46,812 - WARNING - No products found for keyword: nail salon equipment
+2024-12-19 21:17:46,812 - INFO - Scraping reviews for keyword: nail tool organizer
+2024-12-19 21:17:46,898 - WARNING - Failed to fetch search results for 'nail tool organizer' on page 1. Status Code: 503
+2024-12-19 21:17:46,898 - WARNING - No products found for keyword: nail tool organizer
+2024-12-19 21:17:46,898 - INFO - Scraping reviews for keyword: professional nail cutter
+2024-12-19 21:17:47,008 - WARNING - Failed to fetch search results for 'professional nail cutter' on page 1. Status Code: 503
+2024-12-19 21:17:47,008 - WARNING - No products found for keyword: professional nail cutter
+2024-12-19 21:17:47,008 - INFO - Scraping reviews for keyword: nail tool kit
+2024-12-19 21:17:47,094 - WARNING - Failed to fetch search results for 'nail tool kit' on page 1. Status Code: 503
+2024-12-19 21:17:47,094 - WARNING - No products found for keyword: nail tool kit
+2024-12-19 21:17:47,094 - INFO - Scraping reviews for keyword: nail tool set
+2024-12-19 21:17:47,236 - WARNING - Failed to fetch search results for 'nail tool set' on page 1. Status Code: 503
+2024-12-19 21:17:47,236 - WARNING - No products found for keyword: nail tool set
+2024-12-19 21:17:47,236 - INFO - Scraping reviews for keyword: premium nail file
+2024-12-19 21:17:47,322 - WARNING - Failed to fetch search results for 'premium nail file' on page 1. Status Code: 503
+2024-12-19 21:17:47,322 - WARNING - No products found for keyword: premium nail file
+2024-12-19 21:17:47,322 - INFO - Scraping reviews for keyword: heavy-duty nail clippers
+2024-12-19 21:17:47,411 - WARNING - Failed to fetch search results for 'heavy-duty nail clippers' on page 1. Status Code: 503
+2024-12-19 21:17:47,412 - WARNING - No products found for keyword: heavy-duty nail clippers
+2024-12-19 21:17:47,412 - INFO - Scraping reviews for keyword: anti-rust nail tools
+2024-12-19 21:17:47,500 - WARNING - Failed to fetch search results for 'anti-rust nail tools' on page 1. Status Code: 503
+2024-12-19 21:17:47,501 - WARNING - No products found for keyword: anti-rust nail tools
+2024-12-19 21:17:47,501 - INFO - Scraping reviews for keyword: durable nail nippers
+2024-12-19 21:17:47,589 - WARNING - Failed to fetch search results for 'durable nail nippers' on page 1. Status Code: 503
+2024-12-19 21:17:47,590 - WARNING - No products found for keyword: durable nail nippers
+2024-12-19 21:17:47,590 - INFO - Scraping reviews for keyword: professional-grade nail cutters
+2024-12-19 21:17:47,720 - WARNING - Failed to fetch search results for 'professional-grade nail cutters' on page 1. Status Code: 503
+2024-12-19 21:17:47,720 - WARNING - No products found for keyword: professional-grade nail cutters
+2024-12-19 21:17:47,720 - INFO - Scraping reviews for keyword: high-precision nail clippers
+2024-12-19 21:17:47,806 - WARNING - Failed to fetch search results for 'high-precision nail clippers' on page 1. Status Code: 503
+2024-12-19 21:17:47,806 - WARNING - No products found for keyword: high-precision nail clippers
+2024-12-19 21:17:47,806 - INFO - Scraping reviews for keyword: nail tool maintenance
+2024-12-19 21:17:47,911 - WARNING - Failed to fetch search results for 'nail tool maintenance' on page 1. Status Code: 503
+2024-12-19 21:17:47,911 - WARNING - No products found for keyword: nail tool maintenance
+2024-12-19 21:17:47,911 - INFO - Scraping reviews for keyword: nail salon supplies
+2024-12-19 21:17:48,145 - WARNING - Failed to fetch search results for 'nail salon supplies' on page 1. Status Code: 503
+2024-12-19 21:17:48,145 - WARNING - No products found for keyword: nail salon supplies
+2024-12-19 21:17:48,145 - INFO - Scraping reviews for keyword: nail tool hygiene
+2024-12-19 21:17:48,247 - WARNING - Failed to fetch search results for 'nail tool hygiene' on page 1. Status Code: 503
+2024-12-19 21:17:48,247 - WARNING - No products found for keyword: nail tool hygiene
+2024-12-19 21:17:48,247 - INFO - Scraping reviews for keyword: nail tool replacement parts
+2024-12-19 21:17:48,332 - WARNING - Failed to fetch search results for 'nail tool replacement parts' on page 1. Status Code: 503
+2024-12-19 21:17:48,332 - WARNING - No products found for keyword: nail tool replacement parts
+2024-12-19 21:17:48,333 - INFO - Scraping reviews for keyword: manicure
+2024-12-19 21:17:48,563 - WARNING - Failed to fetch search results for 'manicure' on page 1. Status Code: 503
+2024-12-19 21:17:48,564 - WARNING - No products found for keyword: manicure
+2024-12-19 21:17:48,564 - INFO - Scraping reviews for keyword: pedicure
+2024-12-19 21:17:48,650 - WARNING - Failed to fetch search results for 'pedicure' on page 1. Status Code: 503
+2024-12-19 21:17:48,650 - WARNING - No products found for keyword: pedicure
+2024-12-19 21:17:48,676 - INFO - Sentiment scores merged with Google Trends data successfully.
+2024-12-19 21:17:48,680 - INFO - Starting data visualization.
+2024-12-19 21:17:50,192 - INFO - Data visualization completed successfully.
+2024-12-19 21:17:50,579 - INFO - Combined data successfully saved to C:\Users\swazl\PycharmProjects\Market_Research_Pedipro\google_trends_tools_extended_20241219_211420.csv
+2024-12-19 21:17:50,579 - INFO - Script completed successfully.
