@@ -3,3 +3,7 @@ torch==2.5.1+cu118
 torchvision==0.20.1+cu118
 torchaudio==2.5.1+cu118
 opencv-python-headless==4.10.0.84
+pytesseract==0.3.10
+pdfplumber==0.11.4
+docx2txt==0.8
+PyPDF2==3.0.1
